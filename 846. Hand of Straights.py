@@ -26,8 +26,7 @@ def isNStraightHand(hand, groupSize):
         return False
     else:
         return True
-# Example usage
-hand = [1,2,3,4,5,6]
+
 groupSize = 1
 print(isNStraightHand(hand, groupSize))
 
