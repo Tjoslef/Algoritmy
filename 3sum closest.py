@@ -1,7 +1,7 @@
 def threeSumClosest(nums, target):
     nums.sort()
-    closest_sum = 0   # Ensures any valid triplet sum will be smaller
-    min_diff = 0   # Ensures any valid difference will be smaller
+    closest_sum = 0   
+    min_diff = 0  
 
     for i in range(len(nums) - 2):
         if i > 0 and nums[i] == nums[i - 1]:
